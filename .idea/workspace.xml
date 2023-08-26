@@ -7,8 +7,8 @@
     <list default="true" id="23c4bbee-71a5-4653-a09a-85cf2ac4566b" name="Changes" comment="prueba">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PollApi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PollApi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/EncuestaConsola.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/EncuestaPollDaddy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/EncuestaPollDaddy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Encuesta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Encuesta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Opcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Opcion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/PollDaddyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/PollDaddyClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -3,8 +3,8 @@ package model;
 import java.util.ArrayList;
 
 public abstract class Encuesta {
-    private String titulo = "Resultados"; // Título de la encuesta
-    private ArrayList<Opcion> opciones; // Opciones de la encuesta como ArrayList de Opcion
+    private String titulo = "Resultados";
+    private ArrayList<Opcion> opciones;
 
     public Encuesta() {
     }

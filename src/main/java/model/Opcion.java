@@ -1,9 +1,9 @@
 package model;
 
 public class Opcion {
-    private int votos; // Votos de la opción
-    private double porcentaje; // Porcentaje de la opción
-    private String nombre; // Nombre de la opción
+    private int votos;
+    private double porcentaje;
+    private String nombre;
 
     public int getVotos() {
         return votos;
