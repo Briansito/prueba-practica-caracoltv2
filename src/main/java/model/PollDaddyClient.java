@@ -97,24 +97,8 @@ public class PollDaddyClient {
                 response.append(responseLine.trim()); // Añadir cada línea al objeto StringBuilder, eliminando los espacios en blanco al principio y al final
             }
             br.close();
-            // Cerrar el flujo de entrada
-            JSONObject json = new JSONObject(response.toString());
-            JSONObject pdResponse = json.getJSONObject("pdResponse");
-            JSONObject demands = pdResponse.getJSONObject("demands");
-            JSONArray demand = demands.getJSONArray("demand");
-            JSONObject result = demand.getJSONObject(0).getJSONObject("result");
-            JSONObject answers = result.getJSONObject("answers");
-            JSONArray answer = answers.getJSONArray("answer");
-            //llenar las opciones de la encuesta
-            for (int i = 0; i < answer.length(); i++) {
-                JSONObject answerObj = answer.getJSONObject(i);
-                String text = answerObj.getString("text");
-                int total = answerObj.getInt("total");
-                int percent = answerObj.getInt("percent");
-                //System.out.println("response " + text + " " + total + " " + percent);
-                Opcion opcion = new Opcion(total, percent, text);
-                opciones.add(opcion);
-            }
+            PollDaddyResponseHandler handler = new PollDaddyResponseHandler(response.toString());
+            opciones = handler.getOpciones();
         } catch (IOException e) {
             e.printStackTrace();
         }

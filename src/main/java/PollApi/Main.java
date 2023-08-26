@@ -37,6 +37,7 @@ public class Main {
         encPollDaddy.sendJson(requestBody);
         // Obtener e imprimir la respuesta del API
         String response = encPollDaddy.getResponse();
+
         //System.out.println("Response: " + response);
         // Desconectar la conexión
         encPollDaddy.disconnect();
