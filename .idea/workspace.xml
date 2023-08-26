@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23c4bbee-71a5-4653-a09a-85cf2ac4566b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PollApi/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Encuesta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/EncuestaConsola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/EncuestaPollDaddy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Opcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/PollDaddyClient.java" afterDir="false" />
+    <list default="true" id="23c4bbee-71a5-4653-a09a-85cf2ac4566b" name="Changes" comment="prueba">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PollApi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PollApi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/PollDaddyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/PollDaddyClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +41,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2USdPheHhkoGDPCtdlrRZbVpOFd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -112,6 +101,17 @@
       <updated>1692936894385</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PollApi$Main.ic" NAME="Main Coverage Results" MODIFIED="1693008843772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -101,8 +101,8 @@ public class PollDaddyClient {
             // Cerrar la conexión
             connection.disconnect();
         } catch (Exception e) {
-            System.out.println("Algo salió mal en el cliente");
-            e.printStackTrace(System.out);
+            System.out.println("Algo salió mal en el cliente " + e.getMessage());
+            //e.printStackTrace(System.out);
             System.exit(0);
         }
     }
